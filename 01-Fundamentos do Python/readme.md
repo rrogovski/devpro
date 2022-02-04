@@ -28,7 +28,7 @@ type(100/10) # output: <class 'float'>
 ```
 
 ```python
-type(100/10) # output: <class 'int'>
+type(100//10) # output: <class 'int'>
 ```
 
 Para usar exponenciação em _Python_:
