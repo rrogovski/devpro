@@ -53,3 +53,42 @@ type(1_234_567_891_012_345) # output: <class 'int'>
 ```
 
 ### Tipo Ponto Flutuante - _float_
+
+Basicamente tem todas as operações que o tipo inteiro
+
+### Variáveis
+
+Exemplo de declaração de variáveis:
+
+```python
+pi = 3.1415
+raio = 2
+pi * (raio ** 2) # output: 12.566
+```
+
+### Cadeia de Caracteres - _string_
+
+Podemos declarar uma _string_ com usado das aspas simples `'`, duplas `"`, aspas simples três vezes `'''` ou aspas duplas três vezes `"""`.
+
+```python
+type('Norrin') # output: <class 'str'>
+```
+```python
+type("Radd") # output: <class 'str'>
+```
+```python
+type('''Adam Warlock''') # output: <class 'str'>
+```
+```python
+type("""Carol Danvers""") # output: <class 'str'>
+```
+
+Caso de uso para utilização de três aspas simples ou duplas, quando em uma _string_ temos as aspas em sua declaração. Como por exemplo:
+
+```python
+name = "Norrin Radd"
+hero = 'Silver Surfer'
+print(f"{hero}'s name => {name}") # output: Silver Surfer's name => Norrin Radd
+```
+
+Para saber sobre [_Strings_ literais formatadas](https://docs.python.org/pt-br/3/tutorial/inputoutput.html#formatted-string-literals).
